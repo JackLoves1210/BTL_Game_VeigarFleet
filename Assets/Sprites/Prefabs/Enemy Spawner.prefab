@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1006289914581728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4803955437840466}
+  - component: {fileID: 114616730841044346}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4803955437840466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006289914581728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114616730841044346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006289914581728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44d473608d691046b04079a684b1f3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: ff949aebf50af9d4892ecefe035ada2e, type: 2}
+  - {fileID: 11400000, guid: eaedd09729ce8434799f11bc5c329d2f, type: 2}
+  - {fileID: 11400000, guid: a2c0c79570c439c4f94081866de43198, type: 2}
+  - {fileID: 11400000, guid: b5631094ca5f3b741acf1b73bb3742b4, type: 2}
+  - {fileID: 11400000, guid: f938fa08026a1b54395319adf4944458, type: 2}
+  - {fileID: 11400000, guid: 73f6e9099bcbdae46975ead947c0302f, type: 2}
+  - {fileID: 11400000, guid: 3899dbf0fab46da4084c019a2a047897, type: 2}
+  - {fileID: 11400000, guid: 0ac545ce24afc1c45b69c0fed5c49642, type: 2}
+  - {fileID: 11400000, guid: 4f8364c40e6da674793374b0e934d41a, type: 2}
+  - {fileID: 11400000, guid: 5d909fc9afbf4334597b323a032d0b14, type: 2}
+  startingWave: 0
+  looping: 0
+  tempWaypoint: []
+  tempspeed: 0

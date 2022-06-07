@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e066ff9339f670e43ab26975dd5d7146, type: 3}
+  m_Name: Wave End
+  m_EditorClassIdentifier: 
+  Enemys:
+  - {fileID: 11400000, guid: 81af8e1a3a481b14496a4be43e06084e, type: 2}
+  - {fileID: 11400000, guid: 780c29ffd45394a489af3b93c8df4bd2, type: 2}
+  - {fileID: 11400000, guid: 21d05e43c6407e449bf67f75f139f945, type: 2}
+  - {fileID: 11400000, guid: 2f878150a0089ed409d8c87dc07ae332, type: 2}
+  - {fileID: 11400000, guid: e8713b47501d6f844aecb21ac838610b, type: 2}
+  - {fileID: 11400000, guid: 4767bea86caf1e240b56dca1fea32065, type: 2}
+  - {fileID: 11400000, guid: 5de061c032fadd244b6c203cc5fa19c5, type: 2}
+  timeBetweenSpawns: 1
+  spawnRandomFactor: 0.3

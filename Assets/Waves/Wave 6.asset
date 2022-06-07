@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e066ff9339f670e43ab26975dd5d7146, type: 3}
+  m_Name: Wave 6
+  m_EditorClassIdentifier: 
+  Enemys:
+  - {fileID: 11400000, guid: 140ea98645ce6ea47bf310a5eaa0b477, type: 2}
+  - {fileID: 11400000, guid: 9a71e0cef1929594cacc3e734b662d96, type: 2}
+  - {fileID: 11400000, guid: c19ed5a6ba2507146918594b3d5971da, type: 2}
+  - {fileID: 11400000, guid: 835779d4c5a655d469830e154ab032e1, type: 2}
+  - {fileID: 11400000, guid: 8a6534a9a8fbb174bbecf5e4de60c913, type: 2}
+  - {fileID: 11400000, guid: 59a5630c31c20d446b25fc52fd8356b6, type: 2}
+  - {fileID: 11400000, guid: cd50c155d417e8c4ab08025af7ecec73, type: 2}
+  - {fileID: 11400000, guid: 67a3e3c5701699d4790e6052a64a4867, type: 2}
+  - {fileID: 11400000, guid: d021a4e7b92444a4db4a729afcb7e71a, type: 2}
+  - {fileID: 11400000, guid: 79cdd324dfdb66348888d72af5c42806, type: 2}
+  timeBetweenSpawns: 1
+  spawnRandomFactor: 2.07
